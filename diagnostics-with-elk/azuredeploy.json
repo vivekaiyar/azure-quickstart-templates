@@ -198,7 +198,7 @@
     "storageAccountType": "Standard_LRS",
     "vmStorageAccountContainerName": "vhds",
     "vmName": "logstashvm1",
-    "vmSize": "Standard_D1_v2",
+    "vmSize": "Standard_D2_v2",
     "vmNicName": "[concat(variables('vmName'), '-nic')]",
     "vmNsgName": "[concat(variables('vmName'), '-nsg')]",
     "vmPipName": "[concat(variables('vmName'), '-pip')]",
