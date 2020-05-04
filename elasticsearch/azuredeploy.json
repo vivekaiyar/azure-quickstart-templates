@@ -824,6 +824,9 @@
           "contentVersion": "1.0.0.0"
         },
         "parameters": {
+          "storageSettings": {
+            "value": "[variables('dataNodeStorageSettings')]"
+          },          
           "adminUsername": {
             "value": "[parameters('adminUsername')]"
           },
@@ -903,6 +906,9 @@
           "networkSettings": {
             "value": "[variables('networkSettings')]"
           },
+          "storageSettings": {
+            "value": "[variables('dataNodeStorageSettings')]"
+          },          
           "loadBalancerType": {
             "value": "[parameters('loadBalancerType')]"
           },
@@ -932,6 +938,9 @@
           "authSet": {
             "value": "[variables('authSet')]"
           },
+          "storageSettings": {
+            "value": "[variables('dataNodeStorageSettings')]"
+          },          
           "subnet": {
             "value": "[variables('networkSettings').subnet.other]"
           },
@@ -973,6 +982,9 @@
           "authSet": {
             "value": "[variables('authSet')]"
           },
+          "storageSettings": {
+            "value": "[variables('dataNodeStorageSettings')]"
+          },          
           "subnet": {
             "value": "[variables('networkSettings').subnet.data]"
           },
