@@ -95,8 +95,9 @@
     },
     "vmSizeClientNodes": {
       "type": "string",
-      "defaultValue": "Standard_D2_v2",
+      "defaultValue": "Standard_D1_v2",
       "allowedValues": [
+        "Standard_D1_v2",
         "Standard_D2_v2",
         "Standard_D3_v2",
         "Standard_D4_v2",
@@ -117,8 +118,9 @@
     },
     "vmSizeMasterNodes": {
       "type": "string",
-      "defaultValue": "Standard_D2_v2",
+      "defaultValue": "Standard_D1_v2",
       "allowedValues": [
+        "Standard_D1_v2",
         "Standard_D2_v2",
         "Standard_D3_v2",
         "Standard_D4_v2",
@@ -139,8 +141,9 @@
     },
     "vmSizeDataNodes": {
       "type": "string",
-      "defaultValue": "Standard_D2_v2",
+      "defaultValue": "Standard_D1_v2",
       "allowedValues": [
+        "Standard_D1_v2",
         "Standard_D2_v2",
         "Standard_D3_v2",
         "Standard_D4_v2",
@@ -223,8 +226,9 @@
     },
     "vmSizeMarvelNodes": {
       "type": "string",
-      "defaultValue": "Standard_D2_v2",
+      "defaultValue": "Standard_D1_v2",
       "allowedValues": [
+        "Standard_D1_v2",
         "Standard_D2_v2",
         "Standard_D3_v2",
         "Standard_D4_v2",
