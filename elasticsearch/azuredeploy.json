@@ -317,7 +317,7 @@
     }
   },
   "variables": {
-    "nestedTemplatesFolderName": "nestedtemplates",
+    "nestedTemplatesFolderName": "elasticsearch/nestedtemplates",
     "sharedScriptsLocation": "https://raw.githubusercontent.com/vivekaiyar/azure-quickstart-templates/master/shared_scripts/ubuntu/",
     "storageAccountPrefix": "[concat(substring(uniqueString(resourceGroup().id, parameters('esClusterName')), 0, 6), substring(parameters('esClusterName'), 0, 3))]",
     "storageAccountNameAFS": "[concat(variables('storageAccountPrefix'), 'afs')]",
