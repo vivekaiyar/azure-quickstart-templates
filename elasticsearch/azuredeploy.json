@@ -296,7 +296,7 @@
     },
     "_artifactsLocation": {
       "type": "string",
-      "defaultValue": "https://raw.githubusercontent.com/vivekaiyar/azure-quickstart-templates/master/elasticsearch/azuredeploy.parameters.json",
+      "defaultValue": "https://raw.githubusercontent.com/vivekaiyar/azure-quickstart-templates/master/elasticsearch",
       "metadata": {
         "description": "Change this value to your repo name if deploying from a fork"
       }
